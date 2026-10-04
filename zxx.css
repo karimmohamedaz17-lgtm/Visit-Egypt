@@ -1,0 +1,378 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f6f0; /* Soft warm background tint */
+    color: #333;
+    text-align: center;
+}
+
+
+img[alt="Egypt flag"] {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover; 
+    display: block;
+}
+
+
+header {
+    background-color: #1a1a1a;
+    color: #c5a059;
+    padding: 30px 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+
+nav {
+    background-color: #c5a059; 
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+nav li {
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    color: #1a1a1a; 
+}
+
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+.food-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.food-container h2 {
+    color: #1a1a1a;
+    border-bottom: 2px solid #c5a059;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.food-card {
+    background-color: #ffffff;
+    border-left: 5px solid #c5a059;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.food-card h3 {
+    margin-top: 0;
+    color: #1a1a1a;
+}
+
+.food-card p {
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 0;
+}
+
+
+.attractions-container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.attractions-container h2 {
+    color: #1a1a1a;
+    border-bottom: 2px solid #c5a059;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.attractions-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.attraction-card {
+    background-color: #ffffff;
+    flex: 1 1 calc(33.333% - 20px);
+    min-width: 280px;
+    padding: 25px;
+    text-align: left;
+    border-top: 5px solid #c5a059;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+
+.attraction-card h3 {
+    margin-top: 0;
+    color: #1a1a1a;
+}
+
+.attraction-card p {
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 0;
+}
+
+.music-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.music-container h2 {
+    color: #1a1a1a;
+    border-bottom: 2px solid #c5a059;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.music-row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.music-box {
+    background-color: #ffffff;
+    border: 1px solid #e2ded5;
+    border-radius: 8px;
+    padding: 20px 30px;
+    text-align: left;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.02);
+}
+
+.music-box h3 {
+    margin-top: 0;
+    color: #c5a059;
+}
+
+.music-box p {
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 0;
+}
+
+/* Homepage Layout Styles */
+.home-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.home-container h2 {
+    color: #1a1a1a;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.home-intro {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+.home-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.home-card {
+    background-color: #ffffff;
+    flex: 1 1 calc(33.333% - 25px);
+    min-width: 280px;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.home-card h3 {
+    margin-top: 0;
+    color: #1a1a1a;
+}
+
+.home-card p {
+    color: #666;
+    line-height: 1.5;
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+}
+
+
+.home-btn {
+    display: inline-block;
+    background-color: #1a1a1a;
+    color: #c5a059;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.home-btn:hover {
+    background-color: #c5a059;
+    color: #1a1a1a;
+}
+
+
+
+.book-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+
+.book-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.book-container form label,
+.book-container form input,
+.book-container form select,
+.book-container form textarea {
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.book-container form label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+
+.book-container form input,
+.book-container form select,
+.book-container form textarea {
+    padding: 10px;
+}
+
+
+.radio-group,
+.checkbox-group {
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+}
+
+.radio-group label,
+.checkbox-group label {
+    width: auto !important;
+    display: block;
+}
+
+
+.book-container textarea {
+    height: 100px;
+}
+
+
+.book-container button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    cursor: pointer;
+}
+
+input.submit-book  {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px ;
+    background-color: #07dd87;
+    color: #074e6a;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+
+}
+
+submit.html {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+a.submit-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #1a1a1a;
+    color: #c5a059;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+
+
+.attr_title::before {
+    content: "⭐";
+    padding-right: 5px;
+    
+
+}
+
+.to::before {
+    content: "🎺";
+    padding-right: 5px;
+    
+}
+.td::before {
+    content: "🪩";
+    padding-right: 5px;
+    
+}
+.uk::before {
+    content: "🎤";
+    padding-right: 5px;
+}
+
+main {
+    padding: 20px;
+    background-color: #f9f6f0;
+    min-height: 80vh;
+    border-radius: 30px;
+}

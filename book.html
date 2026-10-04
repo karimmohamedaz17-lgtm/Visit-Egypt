@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Trip to Egypt</title>
+    <link rel="stylesheet" href="./zxx.css">
+</head>
+<body>
+    <img src="./stylized-flag-egypt-waving-wind-260nw-2512993979.webp" alt="Egypt flag">
+    <header>
+        <h1>travel with us</h1>
+    </header>
+    <nav>
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./attractions.html">attractions</a></li>
+        <li><a href="./music.html">music</a></li>
+        <li><a href="./food.html">food</a></li>            
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li>>book</li>  
+    </ul>
+</nav>
+
+    <main class="book-container">
+        <h2>Book Your Trip to Egypt✈️</h2>
+        <form action="">
+            <label for="fullname">Full Name</label>
+            <input required type="text" id="fullname" placeholder="Enter your name">
+            
+            <label for="email">Email Address</label>
+            <input required type="email" id="email" name="email">
+            
+            <label for="phone">Phone Number</label>
+            <input required type="tel" id="phone" name="phone">
+            
+            <label>Gender</label>
+            <div class="radio-group">
+                <label for="male">
+                    <input type="radio" id="male" name="gender" value="male"> Male
+                </label>
+                <label for="female">
+                    <input type="radio" id="female" name="gender" value="female"> Female
+                </label>
+            </div>
+            
+            <label for="arrival">Arrival Date</label>
+            <input required type="date" id="arrival" name="arrival_date">
+            
+            <label for="profilePic">Profile Picture</label>
+            <input type="file" id="profilePic" name="profile_picture">
+            
+            <label for="passport">Passport</label>
+            <input required type="file" id="passport" name="passport">
+            
+            <label for="visa">Visa</label>
+            <input required type="file" id="visa" name="visa">
+            
+            <label for="destination">Where would you like to travel?</label>
+            <select required id="destination" name="destination">
+                <option value="">Choose one</option>
+                <option value="cairo">Cairo</option>
+                <option value="luxor">Luxor</option>
+                <option value="alexandria">Alexandria</option>
+            </select>
+            
+            <label>Services you need</label>
+            <div class="checkbox-group">
+                <label for="tickets">
+                    <input type="checkbox" id="tickets" name="services" value="tickets"> Airline Tickets
+                </label>
+                <label for="car">
+                    <input type="checkbox" id="car" name="services" value="car"> Rental Car
+                </label>
+                <label for="hotel">
+                    <input type="checkbox" id="hotel" name="services" value="hotel"> Hotel Accommodation
+                </label>
+                <label for="bodyGuard">
+                    <input type="checkbox" id="bodyGuard" name="services" value="bodyGuard"> Body Guard
+                </label>
+            </div>
+            
+            <label for="notes">Additional Notes</label>
+            <textarea id="notes" name="notes"></textarea>
+            
+            <input type="submit" value="Submit" class="submit-book">
+            <input type="reset" value="Reset" class="submit-book">
+        </form>
+    </main>
+</body>
+</html>
